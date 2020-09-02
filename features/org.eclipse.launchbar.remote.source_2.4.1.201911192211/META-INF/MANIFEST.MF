@@ -1,0 +1,25 @@
+Manifest-Version: 1.0
+Built-By: ?
+Created-By: Apache Maven 3.6.0
+Build-Jdk: 1.8.0_222
+
+Name: epl-2.0.html
+SHA-256-Digest: koxKavfpz4JYnlYPmP+7at5zhbWf7Iy07zamu5HPcBg=
+
+Name: META-INF/maven/org.eclipse.launchbar/org.eclipse.launchbar.remot
+ e/pom.properties
+SHA-256-Digest: 5pw6WTbi6Yb0H5ALcBvD157JZYBMINYTXsFCtW6QgDQ=
+
+Name: feature.xml
+SHA-256-Digest: bzRrHMsWFS4rjEQoCTPaX+EGNLSnu/ycbB6adbAhU6k=
+
+Name: META-INF/maven/org.eclipse.launchbar/org.eclipse.launchbar.remot
+ e/pom.xml
+SHA-256-Digest: TOYOX40aLi63zhvg8jHhjIXNiJQbpRFQaSbJi1VouTU=
+
+Name: feature.properties
+SHA-256-Digest: PVua4qUz0yS8o1Q4O3q0K1A/Vcz2TlMzfgQCaprQ7pc=
+
+Name: license.html
+SHA-256-Digest: Dv5NbrV590iFepPFp4HDAA9w8zkHSynRW5FCE+FLHVM=
+

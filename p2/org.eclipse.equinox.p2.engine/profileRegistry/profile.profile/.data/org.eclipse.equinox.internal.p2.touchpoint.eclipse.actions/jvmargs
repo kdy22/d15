@@ -1,0 +1,5 @@
+#Fri Aug 21 12:11:19 KST 2020
+-Xms=2048m
+eclipse.userDefined\:-Xms=256m
+-Xmx=2048m
+eclipse.userDefined\:-Xmx=1024m

@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?artifactRepository version='1.1.0'?>
+<repository name='C:\oldVersion eclipses\eclipse_3A\eclipse\.eclipseextension' type='org.eclipse.equinox.p2.artifact.repository.simpleRepository' version='1.0.0'>
+  <properties size='3'>
+    <property name='p2.timestamp' value='1595556252309'/>
+    <property name='org.eclipse.update.site.policy' value='USER-EXCLUDE'/>
+    <property name='org.eclipse.update.site.list' value=''/>
+  </properties>
+  <mappings size='3'>
+    <rule filter='(&amp; (classifier=osgi.bundle))' output='${repoUrl}/plugins/${id}_${version}.jar'/>
+    <rule filter='(&amp; (classifier=binary))' output='${repoUrl}/binary/${id}_${version}'/>
+    <rule filter='(&amp; (classifier=org.eclipse.update.feature))' output='${repoUrl}/features/${id}_${version}.jar'/>
+  </mappings>
+  <artifacts size='4'>
+    <artifact classifier='osgi.bundle' id='org.eclipse.ant.core' version='3.5.600.v20191122-2102'>
+      <properties size='2'>
+        <property name='artifact.size' value='109639'/>
+        <property name='download.size' value='109639'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/oldVersion%20eclipses/eclipse_3A/eclipse/plugins/org.eclipse.ant.core_3.5.600.v20191122-2102.jar'/>
+        <property name='file.name' value='C:\oldVersion eclipses\eclipse_3A\eclipse\plugins\org.eclipse.ant.core_3.5.600.v20191122-2102.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.pde.core' version='3.11.101.v20171228-1230'>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/C:/oldVersion%20eclipses/eclipse_3A/eclipse/plugins/org.eclipse.pde.core_3.11.101.v20171228-1230/'/>
+        <property name='file.name' value='C:\oldVersion eclipses\eclipse_3A\eclipse\plugins\org.eclipse.pde.core_3.11.101.v20171228-1230'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.pde.build' version='3.10.600.v20191011-0535'>
+      <properties size='2'>
+        <property name='artifact.size' value='490184'/>
+        <property name='download.size' value='490184'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/oldVersion%20eclipses/eclipse_3A/eclipse/plugins/org.eclipse.pde.build_3.10.600.v20191011-0535.jar'/>
+        <property name='file.name' value='C:\oldVersion eclipses\eclipse_3A\eclipse\plugins\org.eclipse.pde.build_3.10.600.v20191011-0535.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.p2.publisher.eclipse' version='1.3.400.v20191018-2256'>
+      <properties size='2'>
+        <property name='artifact.size' value='240344'/>
+        <property name='download.size' value='240344'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/oldVersion%20eclipses/eclipse_3A/eclipse/plugins/org.eclipse.equinox.p2.publisher.eclipse_1.3.400.v20191018-2256.jar'/>
+        <property name='file.name' value='C:\oldVersion eclipses\eclipse_3A\eclipse\plugins\org.eclipse.equinox.p2.publisher.eclipse_1.3.400.v20191018-2256.jar'/>
+      </repositoryProperties>
+    </artifact>
+  </artifacts>
+</repository>

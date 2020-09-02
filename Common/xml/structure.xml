@@ -1,0 +1,56 @@
+<ModelDefinition>
+
+	<ModelAttribute ModelName="Generator" ClassName="C_Generator">
+
+		<Attribute Name="DistributionParameter" Type="double" DefaultValue="1" Access="Public"/>
+		<Attribute Name="AutonomousVehicleRatio" Type="int" DefaultValue="5" Access="Public"/>
+		<Attribute Name="ElectronicPaymentRatio" Type="int" DefaultValue="5" Access="Public"/>
+
+		<Port>
+			<In Name="pin_stop" />
+			<In Name="pin_init" />
+			<In Name="pin_bufin" />
+			<Out Name="pout_bufout" />
+		</Port>
+		
+	</ModelAttribute>
+
+	<ModelAttribute ModelName="Buffer" ClassName="C_Buffer">
+
+		<Attribute Name="ID" Type="int" DefaultValue="0" Access="Private"/>
+		
+		<Port>
+			<In Name="pin_genin" />
+			<In Name="pin_ready" />
+			<Out Name="pout_procout" />
+			<Out Name="pout_genout" />
+		</Port>
+		
+	</ModelAttribute>
+
+	<ModelAttribute ModelName="Processor" ClassName="C_Processor">
+	
+		<Attribute Name="ID" Type="int" DefaultValue="0" Access="Private"/>
+		<Attribute Name="ProcType" Type="int" DefaultValue="0" Access="Public"/>
+
+		<Port>
+			<In Name="pin_bufin" />
+			<Out Name="pout_transout" />
+			<Out Name="pout_done" />
+			<Out Name="pout_init" />
+		</Port>
+		
+	</ModelAttribute>
+
+	<ModelAttribute ModelName="Transducer" ClassName="C_Transducer">
+
+		<Attribute Name="MaxCustomers" Type="int" DefaultValue="100" Access="Public"/>
+
+		<Port>
+			<In Name="pin_procin" />
+			<Out Name="pout_stop" />
+		</Port>
+		
+	</ModelAttribute>
+
+</ModelDefinition>
